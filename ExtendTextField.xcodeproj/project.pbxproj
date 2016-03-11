@@ -16,6 +16,11 @@
 		8E95185B1C571F870002EF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9518591C571F870002EF4C /* LaunchScreen.storyboard */; };
 		8E9518661C571F870002EF4C /* ExtendTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9518651C571F870002EF4C /* ExtendTextFieldTests.m */; };
 		8E9518711C571F870002EF4C /* ExtendTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9518701C571F870002EF4C /* ExtendTextFieldUITests.m */; };
+		8E9518801C571FCA0002EF4C /* HJCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95187F1C571FCA0002EF4C /* HJCustomTextField.m */; };
+		8E9518831C5720570002EF4C /* AddressTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9518821C5720570002EF4C /* AddressTextField.m */; };
+		8E9518861C5753800002EF4C /* SexTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9518851C5753800002EF4C /* SexTextField.m */; };
+		8E95188B1C58539A0002EF4C /* HJCustomDatePickerTextField.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95188A1C58539A0002EF4C /* HJCustomDatePickerTextField.h.m */; };
+		8E95188E1C585E2C0002EF4C /* DateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95188D1C585E2C0002EF4C /* DateTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		8E95186C1C571F870002EF4C /* ExtendTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtendTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9518701C571F870002EF4C /* ExtendTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendTextFieldUITests.m; sourceTree = "<group>"; };
 		8E9518721C571F880002EF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E95187E1C571FCA0002EF4C /* HJCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCustomTextField.h; sourceTree = "<group>"; };
+		8E95187F1C571FCA0002EF4C /* HJCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCustomTextField.m; sourceTree = "<group>"; };
+		8E9518811C5720570002EF4C /* AddressTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTextField.h; sourceTree = "<group>"; };
+		8E9518821C5720570002EF4C /* AddressTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTextField.m; sourceTree = "<group>"; };
+		8E9518841C5753800002EF4C /* SexTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexTextField.h; sourceTree = "<group>"; };
+		8E9518851C5753800002EF4C /* SexTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexTextField.m; sourceTree = "<group>"; };
+		8E9518891C58539A0002EF4C /* HJCustomDatePickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCustomDatePickerTextField.h; sourceTree = "<group>"; };
+		8E95188A1C58539A0002EF4C /* HJCustomDatePickerTextField.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCustomDatePickerTextField.h.m; sourceTree = "<group>"; };
+		8E95188C1C585E2C0002EF4C /* DateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTextField.h; sourceTree = "<group>"; };
+		8E95188D1C585E2C0002EF4C /* DateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,8 @@
 		8E9518471C571F870002EF4C /* ExtendTextField */ = {
 			isa = PBXGroup;
 			children = (
+				8E9518881C58530B0002EF4C /* DatePickerTextField */,
+				8E9518871C5852E60002EF4C /* PickerViewTextField */,
 				8E95184B1C571F870002EF4C /* AppDelegate.h */,
 				8E95184C1C571F870002EF4C /* AppDelegate.m */,
 				8E95184E1C571F870002EF4C /* ViewController.h */,
@@ -141,6 +158,30 @@
 				8E9518721C571F880002EF4C /* Info.plist */,
 			);
 			path = ExtendTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		8E9518871C5852E60002EF4C /* PickerViewTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8E95187E1C571FCA0002EF4C /* HJCustomTextField.h */,
+				8E95187F1C571FCA0002EF4C /* HJCustomTextField.m */,
+				8E9518811C5720570002EF4C /* AddressTextField.h */,
+				8E9518821C5720570002EF4C /* AddressTextField.m */,
+				8E9518841C5753800002EF4C /* SexTextField.h */,
+				8E9518851C5753800002EF4C /* SexTextField.m */,
+			);
+			name = PickerViewTextField;
+			sourceTree = "<group>";
+		};
+		8E9518881C58530B0002EF4C /* DatePickerTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8E9518891C58539A0002EF4C /* HJCustomDatePickerTextField.h */,
+				8E95188A1C58539A0002EF4C /* HJCustomDatePickerTextField.h.m */,
+				8E95188C1C585E2C0002EF4C /* DateTextField.h */,
+				8E95188D1C585E2C0002EF4C /* DateTextField.m */,
+			);
+			name = DatePickerTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +316,13 @@
 			files = (
 				8E9518501C571F870002EF4C /* ViewController.m in Sources */,
 				8E9518561C571F870002EF4C /* ExtendTextField.xcdatamodeld in Sources */,
+				8E9518831C5720570002EF4C /* AddressTextField.m in Sources */,
 				8E95184D1C571F870002EF4C /* AppDelegate.m in Sources */,
+				8E95188E1C585E2C0002EF4C /* DateTextField.m in Sources */,
+				8E9518801C571FCA0002EF4C /* HJCustomTextField.m in Sources */,
 				8E95184A1C571F870002EF4C /* main.m in Sources */,
+				8E95188B1C58539A0002EF4C /* HJCustomDatePickerTextField.h.m in Sources */,
+				8E9518861C5753800002EF4C /* SexTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
